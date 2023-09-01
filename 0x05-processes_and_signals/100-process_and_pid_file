@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Does the following:
-#   Create a file /var/run/myscript.pid containing the script PID.
-#   Displays "To infinity and beyond" indefinitely
-#   Displays "I hate the kill command" upon receiving a SIGTERM
-#   Displays "Y U no love me?!" upon receiving a SIGINT
-#   Deletes the file /var/run/mycript.pid and terminates upon
-#+  receiving a SIGQUIT or SIGTERM.
+#   it Create a file /var/run/myscript.pid containing the script PID.
+#   it Displays "To infinity and beyond" indefinitely
+#   it Displays "I hate the kill command" upon receiving a SIGTERM
+#   it Displays "Y U no love me?!" upon receiving a SIGINT
+#   it Deletes the file /var/run/mycript.pid and terminates upon
+#+  also receiving a SIGQUIT or SIGTERM.
 
 terminator() {
   rm /var/run/myscript.pid
