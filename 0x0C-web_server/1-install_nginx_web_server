@@ -13,8 +13,8 @@ sudo sed -i 's/^\(\s*listen\s*\)80/\180/' /etc/nginx/sites-available/default
 sudo service nginx restart
 
 # Create an HTML file with "Hello World!"
-echo "<html><body><h1>Hello World!</h1></body></html>" | sudo tee /var/www/html/index.html
+echo "Hello World!" | sudo tee /var/www/html/index.html
 
 # Display completion message
-echo "Nginx has been installed and configured. Visit http://your_server_ip/ to see 'Hello World!'"
+echo "Nginx has been installed and configured. Visit http://54.158.206.196/ to see 'Hello World!'"
 
