@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Gets total words in hot posts of a subreddit"""
+"""It Gets total words in hot posts of a subreddit"""
 from requests import get
 
 
